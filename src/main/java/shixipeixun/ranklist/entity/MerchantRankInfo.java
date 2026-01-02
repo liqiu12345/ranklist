@@ -17,7 +17,7 @@ public class MerchantRankInfo {
     private Long createTime;
     private Long updateTime;
 
-    /* ======== 新增 ======== */
+    // 新增字段
     private Integer rankCycle;   // 周期类型 1日榜 2周榜 3月榜
     private Integer orderCnt;    // 订单量
     private String operator;     // 操作人

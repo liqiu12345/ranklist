@@ -1,16 +1,16 @@
 package shixipeixun.ranklist.controller;
 
+import jakarta.annotation.Resource;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 import shixipeixun.ranklist.dto.RankQueryDTO;
 import shixipeixun.ranklist.entity.MerchantRankInfo;
 import shixipeixun.ranklist.service.RankService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-public class RankController {
+public class RanklistController {
 
     @Resource
     private RankService rankService;

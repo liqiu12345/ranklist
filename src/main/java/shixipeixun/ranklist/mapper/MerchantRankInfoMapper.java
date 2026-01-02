@@ -13,7 +13,7 @@ public interface MerchantRankInfoMapper {
             "       sale_num_month, sale_num_day, date, is_delete, " +
             "       create_time, update_time, " +
             "       rank_cycle, order_cnt, operator " +
-            "FROM   merchant_rank_info " +
-            "WHERE  date = #{date} AND is_delete = 0")
+            "FROM merchant_rank_info " +
+            "WHERE date = #{date} AND is_delete = 0")
     List<MerchantRankInfo> selectByDate(String date);
 }
